@@ -6,6 +6,12 @@
 # and calling a setter method.
 # OR Use self for class method definitions.
 
+# self, inside of an instance method, references the instance (object) that called the method - the calling object.
+# Therefore, self.weight= is the same as sparky.weight=
+
+# self, outside of an instance method, references the class and can be used to define class methods. 
+# Therefore, def self.name=(n) is the same as def GoodDog.name=(n)
+
 #Class Variables
 
 class GoodDog
